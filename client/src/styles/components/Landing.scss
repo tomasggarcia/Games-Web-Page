@@ -1,0 +1,42 @@
+.landing {
+    // position: absolute;
+    // margin: 0 0 -500 0;
+
+    background-image: url('https://i.pinimg.com/originals/0a/95/9e/0a959ed94ba85c441993a8e2d134529f.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: black;
+    // z-index: 4;
+}
+
+
+
+.buttonLanding {
+    
+    position: absolute;
+    top: 72%;
+    left: 47%;
+
+	box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+	border-radius:6px;
+	border:1px solid #e65f44;
+	display:inline-block;
+	cursor:pointer;
+	color:#c92200;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ded17c;
+}
+.buttonLanding:hover {
+	background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color:#f2ab1e;
+}
+
+
+        

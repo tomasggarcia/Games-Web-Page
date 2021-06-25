@@ -1,0 +1,34 @@
+.details {
+    // position: absolute;
+    // margin-top: 500px;
+    // margin-left: 500px; 
+    width: 600px;
+    height: 500px;
+    padding: 0px;
+    border: 5px solid gray;
+    margin: 0;
+    background-size: 100% 100%;
+    color: rgb(0, 0, 0);
+
+    // background-color: black;
+    // opacity: 0.2;
+    // margin: 100px;
+}
+
+.detailsContent {
+    height: 300px;
+    margin: 120px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+}
+
+.platformsD {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+
+}
